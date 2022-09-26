@@ -13,12 +13,12 @@ viewResume.onclick = function () {
   window.location = "./assets/html/resumeViewer.html";
 };
 
-let homebtn_1 = document.querySelector("#home-btn");
+let homebtn_1 = document.querySelector("#home-btn1");
 homebtn_1.onclick = function () {
   window.location = "../../index.html#intro";
 };
 
-let projbtn_1 = document.querySelector("#projects-btn");
+let projbtn_1 = document.querySelector("#projects-btn1");
 projbtn_1.onclick = function () {
   window.location = "../../index.html#prjects";
 };
