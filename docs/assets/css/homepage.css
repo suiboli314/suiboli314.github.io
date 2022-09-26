@@ -9,7 +9,7 @@ html .sakana-box {
 .vertical {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    --bs-link-color: rgb(250,250,250);
+    --bs-link-color: rgb(250, 250, 250);
 }
 
 .vertical:hover {
@@ -21,10 +21,8 @@ html .sakana-box {
     height: 100vh;
 }
 
-.container::after {
-    content: "";
-    /*display: block;*/
-    clear: both;
+.container {
+    overflow: scroll;
 }
 
 /*body, */
@@ -35,6 +33,7 @@ html .sakana-box {
 
 #menu {
     background: #bd86ff;
+    height: 100vh;
 }
 
 #neu,
@@ -67,4 +66,10 @@ h1 {
 
 h1:hover {
     font-weight: revert;
+}
+
+#pdf-viewer {
+    height: 100vh;
+    width: 95vw;
+    float: left;
 }

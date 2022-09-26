@@ -1,5 +1,4 @@
 let homebtn = document.querySelector("#home-btn");
-
 homebtn.onclick = function () {
   window.location = "#intro";
 };
@@ -11,5 +10,15 @@ projbtn.onclick = function () {
 
 let viewResume = document.querySelector("#resume-btn");
 viewResume.onclick = function () {
-  window.location = "../assets/html/resumeViewer.html";
+  window.location = "./assets/html/resumeViewer.html";
+};
+
+let homebtn_1 = document.querySelector("#home-btn");
+homebtn_1.onclick = function () {
+  window.location = "../../index.html#intro";
+};
+
+let projbtn_1 = document.querySelector("#projects-btn");
+projbtn_1.onclick = function () {
+  window.location = "../../index.html#prjects";
 };
