@@ -1,0 +1,8 @@
+/*place sakana box at the corner*/
+html .sakana-box{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform-origin: 110% 100%;
+}
+

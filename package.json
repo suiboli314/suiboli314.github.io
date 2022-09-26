@@ -1,0 +1,37 @@
+{
+  "name": "personalpages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiboli314/suiboli314.github.io.git"
+  },
+  "keywords": [
+    "Chenjie"
+  ],
+  "author": "Chenjie Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiboli314/suiboli314.github.io/issues"
+  },
+  "homepage": "https://github.com/suiboli314/suiboli314.github.io#readme",
+  "dependencies": {
+    "cypress": "^10.8.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "prettier": "^2.7.1"
+  }
+}
