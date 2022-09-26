@@ -1,8 +1,70 @@
-/*place sakana box at the corner*/
-html .sakana-box{
+/*place sakana box at the right bottom corner*/
+html .sakana-box {
     position: fixed;
     right: 0;
     bottom: 0;
     transform-origin: 110% 100%;
 }
 
+.vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    --bs-link-color: rgb(250,250,250);
+}
+
+.vertical:hover {
+    font-weight: bold;
+}
+
+/*expand the row to full screen*/
+#wrapper {
+    height: 100vh;
+}
+
+.container::after {
+    content: "";
+    /*display: block;*/
+    clear: both;
+}
+
+/*body, */
+/*footer,*/
+#main {
+    background-color: #55c9c2;
+}
+
+#menu {
+    background: #bd86ff;
+}
+
+#neu,
+#ru {
+    max-width: 120px;
+    width: auto;
+    min-height: 25px;
+}
+
+#headshot {
+    max-height: 260px;
+    max-width: 260px;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+#school {
+    padding-bottom: 5px;
+}
+
+/*heading 1 stick on top and fixed position*/
+h1 {
+    left: 4%;
+    top: 1.5%;
+    color: rgb(250, 250, 250);
+    font: 32px/1.4em helvetica-w01-light, helvetica-w02-light, sans-serif;
+    position: fixed;
+    /*z-index: 1;*/
+}
+
+h1:hover {
+    font-weight: revert;
+}
