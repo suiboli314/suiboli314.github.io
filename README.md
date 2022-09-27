@@ -60,6 +60,11 @@ Image source:  [@大伏アオ](https://twitter.com/blue00f4) at [pixiv](https://
 - Clone the repo
 - `npm install` install the required dependencies in repo folder
 
+### Other Resources
+- [presentation slides](./docs/assets/resources/Personal%20Homepage%20Presentation.pdf)
+- [presentaton link](https://vimeo.com/754278032)
+- [course link](https://johnguerra.co/classes/webDevelopment_fall_2022/)
+
 ### SnapShot
 
 ![Snapshot of personal homepage](./docs/assets/images/snapshot-homepage.jpeg)
